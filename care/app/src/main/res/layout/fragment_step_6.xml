@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/create_doc_bg_color">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/DocTitleStarTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    style="@style/DocTitleTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="生活照料类:"/>
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_weight="1"
+                android:background="#fff"/>
+        </TableRow>
+
+        <TableRow>
+
+            <com.ihidea.multilinechooselib.MultiLineChooseLayout
+                android:id="@+id/ml_live_care"
+                style="@style/MultiChooseStyleLiveAblity"/>
+        </TableRow>
+
+        <TableRow>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_weight="1"
+                android:background="#fff"/>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/DocTitleStarTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    style="@style/DocTitleTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="医疗服务类:"/>
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_weight="1"
+                android:background="#fff"/>
+        </TableRow>
+
+        <TableRow>
+
+            <com.ihidea.multilinechooselib.MultiLineChooseLayout
+                android:id="@+id/ml_medical_server"
+                style="@style/MultiChooseStyleLiveAblity"/>
+        </TableRow>
+
+        <TableRow android:background="#fff">
+
+            <EditText
+                android:id="@+id/et_other_medical_server"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:hint="请输入其他医疗服务需求,如果没有则不填"
+                android:lines="1"/>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/DocTitleStarTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    style="@style/DocTitleTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="安全类:"/>
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_weight="1"
+                android:background="#fff"/>
+        </TableRow>
+
+        <TableRow>
+
+            <com.ihidea.multilinechooselib.MultiLineChooseLayout
+                android:id="@+id/ml_security"
+                style="@style/MultiChooseStyleLiveAblity"/>
+        </TableRow>
+
+        <TableRow android:background="#fff">
+
+            <EditText
+                android:id="@+id/et_other_security"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:hint="请输入其他安全需求,如果没有则不填"
+                android:lines="1"/>
+        </TableRow>
+    </TableLayout>
+</android.support.v4.widget.NestedScrollView>

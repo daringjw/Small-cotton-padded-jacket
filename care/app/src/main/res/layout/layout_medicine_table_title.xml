@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:showIn="@layout/fragment_step_7">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="处方用药名称\n(包含针剂、塞剂,例如:胰岛素、开塞路)"
+        android:textColor="@color/text_color_black"/>
+
+    <View
+        android:layout_width="@dimen/medicine_line_width"
+        android:layout_height="match_parent"
+        android:background="@color/text_color_white"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="用药时间和剂量"
+            android:textColor="@color/text_color_black"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/medicine_line_width"
+            android:background="@color/text_color_white"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="早"
+                android:textColor="@color/text_color_black"/>
+
+            <View
+                android:layout_width="@dimen/medicine_line_width"
+                android:layout_height="match_parent"
+                android:background="@color/text_color_white"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="中"
+                android:textColor="@color/text_color_black"/>
+
+            <View
+                android:layout_width="@dimen/medicine_line_width"
+                android:layout_height="match_parent"
+                android:background="@color/text_color_white"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="晚"
+                android:textColor="@color/text_color_black"/>
+
+            <View
+                android:layout_width="@dimen/medicine_line_width"
+                android:layout_height="match_parent"
+                android:background="@color/text_color_white"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="睡前"
+                android:textColor="@color/text_color_black"/>
+
+            <View
+                android:layout_width="@dimen/medicine_line_width"
+                android:layout_height="match_parent"
+                android:background="@color/text_color_white"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="@dimen/medicine_line_width"
+        android:layout_height="match_parent"
+        android:background="@color/text_color_white"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="备注"
+        android:textColor="@color/text_color_black"/>
+
+    <View
+        android:layout_width="@dimen/medicine_line_width"
+        android:layout_height="match_parent"
+        android:background="@color/text_color_white"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="操作"
+        android:textColor="@color/text_color_black"/>
+</LinearLayout>

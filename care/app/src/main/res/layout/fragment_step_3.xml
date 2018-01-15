@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/create_doc_bg_color">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/DocTitleStarTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    style="@style/DocTitleTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="父亲:"/>
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_weight="1"
+                android:background="#fff"/>
+        </TableRow>
+
+        <TableRow>
+
+            <com.ihidea.multilinechooselib.MultiLineChooseLayout
+                android:id="@+id/ml_disease_father"
+                style="@style/MultiChooseStyle1"/>
+        </TableRow>
+
+        <TableRow android:background="#fff">
+
+            <EditText
+                android:id="@+id/et_other_by_father"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:hint="请输入其他疾病名称,如果没有则不填"/>
+        </TableRow>
+
+        <TableRow>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_weight="1"
+                android:background="#fff"/>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/DocTitleStarTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    style="@style/DocTitleTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="母亲:"/>
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_weight="1"
+                android:background="#fff"/>
+        </TableRow>
+
+        <TableRow>
+
+            <com.ihidea.multilinechooselib.MultiLineChooseLayout
+                android:id="@+id/ml_disease_mother"
+                style="@style/MultiChooseStyle2"/>
+        </TableRow>
+
+        <TableRow android:background="#fff">
+
+            <EditText
+                android:id="@+id/et_other_by_mother"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:hint="请输入其他疾病名称,如果没有则不填"
+                android:lines="1"/>
+        </TableRow>
+
+        <TableRow>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_weight="1"
+                android:background="#fff"/>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/DocTitleStarTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    style="@style/DocTitleTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="兄弟姐妹:"/>
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_weight="1"
+                android:background="#fff"/>
+        </TableRow>
+
+        <TableRow>
+
+            <com.ihidea.multilinechooselib.MultiLineChooseLayout
+                android:id="@+id/ml_disease_brother"
+                style="@style/MultiChooseStyle3"/>
+        </TableRow>
+
+        <TableRow android:background="#fff">
+
+            <EditText
+                android:id="@+id/et_other_by_brother"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:hint="请输入其他疾病名称,如果没有则不填"
+                android:lines="1"/>
+        </TableRow>
+
+        <TableRow>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_weight="1"
+                android:background="#fff"/>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/DocTitleStarTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    style="@style/DocTitleTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="子女:"/>
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_weight="1"
+                android:background="#fff"/>
+        </TableRow>
+
+        <TableRow>
+
+            <com.ihidea.multilinechooselib.MultiLineChooseLayout
+                android:id="@+id/ml_disease_children"
+                style="@style/MultiChooseStyle4"/>
+        </TableRow>
+
+        <TableRow android:background="#fff">
+
+            <EditText
+                android:id="@+id/et_other_by_children"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:hint="请输入其他疾病名称,如果没有则不填"
+                android:lines="1"/>
+        </TableRow>
+
+        <TableRow>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_weight="1"
+                android:background="#fff"/>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/DocTitleStarTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    style="@style/DocTitleTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="遗传病史:"/>
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_weight="1"
+                android:background="#fff"/>
+        </TableRow>
+
+        <TableRow android:background="#fff">
+
+            <EditText
+                android:id="@+id/et_inherited_disease"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:hint="请输入遗传病名称,如果没有则不填"
+                android:lines="1"/>
+        </TableRow>
+
+        <TableRow>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_weight="1"
+                android:background="#fff"/>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/DocTitleStarTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    style="@style/DocTitleTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="有无残疾:"/>
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_weight="1"
+                android:background="#fff"/>
+        </TableRow>
+
+        <TableRow>
+
+            <com.ihidea.multilinechooselib.MultiLineChooseLayout
+                android:id="@+id/ml_physical_disablity"
+                style="@style/MultiChooseStyle5"/>
+        </TableRow>
+
+        <TableRow android:background="#fff">
+
+            <EditText
+                android:id="@+id/et_disablity_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:hint="请输入残疾证号,如果没有则不填"
+                android:lines="1"/>
+        </TableRow>
+
+        <TableRow>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_weight="1"
+                android:background="#fff"/>
+        </TableRow>
+    </TableLayout>
+</android.support.v4.widget.NestedScrollView>

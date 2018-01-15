@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/create_doc_bg_color">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/DocTitleStarTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    style="@style/DocTitleTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="服药依从性:"/>
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow android:background="#fff">
+
+            <include
+                android:id="@+id/rg_use_medicine"
+                layout="@layout/layout_radio_group_use_medicine"/>
+        </TableRow>
+
+        <TableRow>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_weight="1"
+                android:background="#fff"/>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/DocTitleStarTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    style="@style/DocTitleTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="开药周期:"/>
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow android:background="#fff">
+
+            <include
+                android:id="@+id/rg_take_medicine"
+                layout="@layout/layout_radio_group_take_medicine"/>
+        </TableRow>
+
+        <TableRow>
+
+            <include
+                android:id="@+id/ll_take_by_month"
+                layout="@layout/item_take_medicine_by_month"
+                android:visibility="gone"/>
+        </TableRow>
+
+        <TableRow>
+
+            <include
+                android:id="@+id/ll_take_by_day"
+                layout="@layout/item_take_medicine_by_day"
+                android:visibility="gone"/>
+        </TableRow>
+
+        <TableRow>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_weight="1"
+                android:background="#fff"/>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/DocTitleStarTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    style="@style/DocTitleTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="开药医院名称:"/>
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_weight="1"
+                android:background="#fff"/>
+        </TableRow>
+
+        <TableRow>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_hospital_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+            </android.support.v7.widget.RecyclerView>
+        </TableRow>
+
+        <TableRow>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_weight="1"
+                android:background="#fff"/>
+        </TableRow>
+
+        <TableRow>
+
+            <include
+                layout="@layout/layout_medicine_table_title"
+                android:layout_width="0dp"
+                android:layout_height="72dp"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="@dimen/medicine_line_width"
+                android:layout_weight="1"
+                android:background="#fff"/>
+        </TableRow>
+
+        <TableRow>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_medicine_use_detail"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+            </android.support.v7.widget.RecyclerView>
+        </TableRow>
+
+        <!--<TableRow>-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1"-->
+        <!--android:gravity="center_vertical">-->
+
+        <!--<TextView-->
+        <!--style="@style/DocTitleStarTextStyle"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"/>-->
+
+        <!--<TextView-->
+        <!--style="@style/DocTitleTextStyle"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="备注:"/>-->
+
+        <!--</LinearLayout>-->
+
+        <!--</TableRow>-->
+
+        <!--<TableRow>-->
+
+        <!--<include layout="@layout/layout_radio_group_note_info"/>-->
+
+        <!--</TableRow>-->
+    </TableLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,12 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="doc_common_text_size">22sp</dimen>
+    <dimen name="doc_title_text_size">28sp</dimen>
+    <dimen name="doc_radio_text_size">22sp</dimen>
+    <dimen name="doc_small_radio_text_size">16sp</dimen>
+    <dimen name="disease_text_size">18sp</dimen>
+    <dimen name="medicine_line_width">1dp</dimen>
+    <dimen name="max_sticker_require_size">200dp</dimen>
+</resources>

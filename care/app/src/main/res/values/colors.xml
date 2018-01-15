@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="max_c7_main_white">#ffffff</color>
+
+    <!--登陆界面-->
+    <color name="login_blue_light">#ff33b5e5</color>
+    <color name="login_blue_dark">#aa33b5e5</color>
+    <color name="login_green_dark">#ff99cc00</color>
+    <color name="login_green_light">#aa99cc00</color>
+
+    <!--状态栏颜色-->
+    <color name="status_bar_light">#ff0099cc</color>
+
+    <!--老人建档-->
+    <color name="create_doc_bg_color">#ccdddddd</color>
+
+    <!--既往史-->
+    <color name="item_disease_bg_color">#aa33b5e5</color>
+    <color name="item_add_normal_bg_color">#FF4081</color>
+    <color name="item_disease_normal_color">#ffffff</color>
+    <color name="item_disease_selected_color">#aa33b5e5</color>
+    <color name="item_add_press_selected_color">#aaFF4081</color>
+    <color name="popup_bg">#8f000000</color>
+    <color name="line_bg">#CDCDCD</color>
+
+    <!--家族史-->
+    <color name="color_bg_father_disease">#ff33b5e5</color>
+    <color name="color_bg_mother_disease">#FF4081</color>
+    <color name="color_bg_brother_disease">#ffff8800</color>
+    <color name="color_bg_children_disease">#ffaa66cc</color>
+    <color name="color_bg_disablity">#ff669900</color>
+    <color name="text_color_black">#000</color>
+    <color name="text_color_white">#fff</color>
+
+</resources>

@@ -1,0 +1,199 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/status_bar_light</item>
+        <item name="colorPrimaryDark">@color/status_bar_light</item>
+        <item name="colorAccent">@color/status_bar_light</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="DocCommonTextStyle">
+        <item name="android:layout_margin">10dp</item>
+        <!--<item name="android:textColor">#000000</item>-->
+        <item name="android:textSize">@dimen/doc_common_text_size</item>
+    </style>
+
+    <style name="DocTitleTextStyle">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">@dimen/doc_title_text_size</item>
+    </style>
+
+    <style name="DocRadioTextStyle">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">@dimen/doc_radio_text_size</item>
+    </style>
+
+    <style name="DocStarTextStyle">
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:text">*</item>
+        <item name="android:textColor">@android:color/holo_red_dark</item>
+        <item name="android:textSize">@dimen/doc_common_text_size</item>
+    </style>
+
+    <style name="DocTitleStarTextStyle">
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:text">*</item>
+        <item name="android:textColor">@android:color/holo_red_dark</item>
+        <item name="android:textSize">@dimen/doc_title_text_size</item>
+    </style>
+
+    <style name="DocInputTextStyle">
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textSize">@dimen/doc_common_text_size</item>
+        <item name="android:lines">1</item>
+    </style>
+
+    <style name="DocInputMoneyStyle">
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textSize">@dimen/doc_common_text_size</item>
+        <item name="android:lines">1</item>
+    </style>
+
+    <style name="DocInputNumberStyle">
+        <item name="android:inputType">number</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textSize">@dimen/doc_common_text_size</item>
+        <item name="android:lines">1</item>
+    </style>
+
+    <style name="DocInvisiableInputTextStyle">
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:textSize">@dimen/doc_common_text_size</item>
+    </style>
+
+    <style name="DocSpinnerStyle">
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textSize">@dimen/doc_common_text_size</item>
+    </style>
+
+    <style name="BaseMultiChooseStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>
+
+        //选项item文字默认值
+        <item name="item_textColor">#666666</item>
+        <item name="item_textSize">@dimen/disease_text_size</item>
+
+        //选项item背景色
+        <item name="item_backgroundColor">#ffffff</item>
+
+        //选中后选项item的文字颜色
+        <item name="item_selectedTextColor">#ffffff</item>
+
+        //选中后选项item的背景颜色
+        <item name="item_selectedBackgroundColor">#7289ff</item>
+
+        //选项item的圆角大小
+        <item name="item_radius">5dp</item>
+
+        //选项item的边缘颜色
+        <item name="item_strokeColor">#939393</item>
+
+        //选项item选中后边缘颜色
+        <item name="item_selectedStrokeColor">#939393</item>
+
+        //选项item边缘的大小
+        <item name="item_strokeWidth">1px</item>
+
+        //水平方向，选项item的间距
+        <item name="item_horizontalSpacing">10dp</item>
+
+        //选项item内部padding
+        <item name="item_horizontalPadding">10dp</item>
+
+        ////竖直方向，选项item的间距
+        <item name="item_verticalPadding">15dp</item>
+
+        //选项item的大小，如果设置wrap_content则包裹它的内容，可设置固定值如80，单位dp
+        <item name="item_width">190</item>
+        <item name="item_height">80</item>
+
+        //限制item文字显示长度
+        <item name="item_maxEms">5</item>
+
+        //是否可以多选
+        <item name="item_multiChooseable">true</item>
+    </style>
+
+    <style name="MultiChooseStyleLiveAblity" parent="BaseMultiChooseStyle">
+        //选中后选项item的背景颜色
+        <item name="item_selectedBackgroundColor">@color/color_bg_father_disease</item>
+
+        //是否可以多选
+        <item name="item_multiChooseable">true</item>
+        <item name="item_width">wrap_content</item>
+        <item name="item_height">wrap_content</item>
+
+    </style>
+
+    <style name="MultiChooseStyleLiveAblitySingle" parent="BaseMultiChooseStyle">
+        //选中后选项item的背景颜色
+        <item name="item_selectedBackgroundColor">@color/color_bg_father_disease</item>
+
+        //是否可以多选
+        <item name="item_multiChooseable">false</item>
+        <item name="item_width">120</item>
+        <item name="item_height">wrap_content</item>
+    </style>
+
+    <style name="MultiChooseStyle1" parent="BaseMultiChooseStyle">
+        //选中后选项item的背景颜色
+        <item name="item_selectedBackgroundColor">@color/color_bg_father_disease</item>
+
+        //是否可以多选
+        <item name="item_multiChooseable">true</item>
+    </style>
+
+    <style name="MultiChooseStyle2" parent="BaseMultiChooseStyle">
+        //选中后选项item的背景颜色
+        <item name="item_selectedBackgroundColor">@color/color_bg_mother_disease</item>
+
+        //是否可以多选
+        <item name="item_multiChooseable">true</item>
+    </style>
+
+    <style name="MultiChooseStyle3" parent="BaseMultiChooseStyle">
+        //选中后选项item的背景颜色
+        <item name="item_selectedBackgroundColor">@color/color_bg_brother_disease</item>
+
+        //是否可以多选
+        <item name="item_multiChooseable">true</item>
+    </style>
+
+    <style name="MultiChooseStyle4" parent="BaseMultiChooseStyle">
+        //选中后选项item的背景颜色
+        <item name="item_selectedBackgroundColor">@color/color_bg_children_disease</item>
+
+        //是否可以多选
+        <item name="item_multiChooseable">true</item>
+    </style>
+
+    <style name="MultiChooseStyle5" parent="BaseMultiChooseStyle">
+        //选中后选项item的背景颜色
+        <item name="item_selectedBackgroundColor">@color/color_bg_disablity</item>
+
+        //是否可以多选
+        <item name="item_multiChooseable">true</item>
+
+        //选项item的大小，如果设置wrap_content则包裹它的内容，可设置固定值如80，单位dp
+        <item name="item_width">150</item>
+        <item name="item_height">80</item>
+    </style>
+
+    <style name="line_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/line_bg</item>
+        <item name="android:layout_margin">2dp</item>
+    </style>
+</resources>

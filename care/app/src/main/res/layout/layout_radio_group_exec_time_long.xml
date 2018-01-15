@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="horizontal"
+    tools:showIn="@layout/fragment_step_5">
+
+    <RadioButton
+        android:id="@+id/rb_value_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="大于半小时"
+        android:textSize="@dimen/doc_title_text_size"/>
+
+    <RadioButton
+        android:id="@+id/rb_value_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="半小时"
+        android:textSize="@dimen/doc_title_text_size"/>
+
+    <RadioButton
+        android:id="@+id/rb_value_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="小于半小时"
+        android:textSize="@dimen/doc_title_text_size"/>
+</RadioGroup>

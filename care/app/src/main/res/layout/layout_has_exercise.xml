@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:showIn="@layout/fragment_step_4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/DocTitleTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="锻炼的频次:"/>
+
+        <include
+            android:id="@+id/rg_exercise_freq"
+            layout="@layout/layout_radio_group_day_or_month"/>
+
+        <EditText
+            android:id="@+id/et_exec_per_week"
+            style="@style/DocInputNumberStyle"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            style="@style/DocTitleTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="次"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/DocTitleTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="每次锻炼时间:"/>
+
+        <include
+            android:id="@+id/rg_exercise_time_long"
+            layout="@layout/layout_radio_group_exec_time_long"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/DocTitleTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="坚持锻炼时间:"/>
+
+        <EditText
+            android:id="@+id/et_exec_consist"
+            style="@style/DocInputNumberStyle"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            style="@style/DocTitleTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="年"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/DocTitleTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="锻炼方式:"/>
+
+        <com.ihidea.multilinechooselib.MultiLineChooseLayout
+            android:id="@+id/ml_exec_type"
+            style="@style/MultiChooseStyleLiveAblity"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_other_exec_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="请输入其他锻炼方式,如果没有则不填"
+        android:lines="1"/>
+</LinearLayout>

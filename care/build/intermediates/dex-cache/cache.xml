@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\VULCAN\.android\build-cache\7a1528f9c8baea74cad092e49e2ae242026ee04c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="91a335dab6fcecb5f15f9f19e960e02bb3e699aa">
+        <dex dex="F:\projects2\care\app\build\intermediates\pre-dexed\debug\classes_131089fcd24658d693239682810b0fcfd697e0cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\VULCAN\.android\build-cache\91c974abec74dea34fd3a36d7624e5ccc1cfa82d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4119ea97a7191ff9b8f33b534ea220448f62f491">
+        <dex dex="F:\projects2\care\app\build\intermediates\pre-dexed\debug\classes_b2e6dd35881de61bbbdd49131c4e8982d6e6d04c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\VULCAN\.gradle\caches\modules-2\files-2.1\org.reactivestreams\reactive-streams\1.0.0\14b8c877d98005ba3941c9257cfe09f6ed0e0d74\reactive-streams-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="14b8c877d98005ba3941c9257cfe09f6ed0e0d74">
+        <dex dex="F:\projects2\care\app\build\intermediates\pre-dexed\debug\reactive-streams-1.0.0_96368c97c9380b8436dc2eaec1252b75b5040fad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\VULCAN\.android\build-cache\39ee1b7a4ab5a5cfbe4352b3f4a42b2651349489\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="89431f8e8b6d5d187364cef8fcdc690ba0ed28d2">
+        <dex dex="F:\projects2\care\app\build\intermediates\pre-dexed\debug\classes_24fe7dfbdd5aa2246323381b89a12c1c0025d18b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\VULCAN\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava2\2.3.0\f436637f9500ab5b8bc32afe556373180894b4a5\adapter-rxjava2-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f436637f9500ab5b8bc32afe556373180894b4a5">
+        <dex dex="F:\projects2\care\app\build\intermediates\pre-dexed\debug\adapter-rxjava2-2.3.0_536c8136e4d8e6095947f19735db2fd39f01db20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\VULCAN\.gradle\caches\modules-2\files-2.1\io.reactivex.rxjava2\rxjava\2.1.0\2fdf84dedcaaeabb9d70cde9dbb8aad4eccb80a1\rxjava-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2fdf84dedcaaeabb9d70cde9dbb8aad4eccb80a1">
+        <dex dex="F:\projects2\care\app\build\intermediates\pre-dexed\debug\rxjava-2.1.0_703fd25a8e4d3091cdbe4fd036ec40cb70dc5c48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\VULCAN\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.6.0\a7537446a030da8eb0da4c71424d16c2589f6c4a\glide-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a7537446a030da8eb0da4c71424d16c2589f6c4a">
+        <dex dex="F:\projects2\care\app\build\intermediates\pre-dexed\debug\glide-3.6.0_25e60f9bc878ea71eef279115fd2dcbc4a587aed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\VULCAN\.android\build-cache\d04ab671f670647607e064909e8db9dde877bc38\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3e985ebf99e4e81f69b0357d67eab677e3f0cb96">
+        <dex dex="F:\projects2\care\app\build\intermediates\pre-dexed\debug\classes_d112ae3675bde4cc93cfe3a77770a4d9d8326dff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\VULCAN\.android\build-cache\bfb4dbd63396e0f409ea187ea69c5c43be1d3dfa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b2cb5e4ead4034da3903770c55334c257b874dbb">
+        <dex dex="F:\projects2\care\app\build\intermediates\pre-dexed\debug\classes_b4acd77a98ce8c522e6c5cce8bb9f7d267e7bae5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\VULCAN\.android\build-cache\9f68bddf6acc6c9a65af604244de07cd3586d947\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="57487745ce450899f9f250d5ae5c092a682cd041">
+        <dex dex="F:\projects2\care\app\build\intermediates\pre-dexed\debug\classes_d21cd3c6b0f99c6fd4241d42b3b9c2b6e0d15e53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\VULCAN\.android\build-cache\53b4239ba64d0086308b7bf296b32d380a7f02a4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2013b068d3aecc7d4a96f39d343686bcd4a84a63">
+        <dex dex="F:\projects2\care\app\build\intermediates\pre-dexed\debug\classes_fed41358ad59ac33f7ee4349c7c4fdef837b16f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\VULCAN\.android\build-cache\fee444cf5a0260f45e425e2875b64dc12f3e465a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0c3529d9491be892952749d252ae1defa9b1f937">
+        <dex dex="F:\projects2\care\app\build\intermediates\pre-dexed\debug\classes_652343ac7b9ef153f80bda421f7fa4d4cb108a76.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\VULCAN\.android\build-cache\fc52c7dca265314b6cc34331022d59331de9b3e7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6a2bcb61342d09fe9acf55c9daf63961c8866cc0">
+        <dex dex="F:\projects2\care\app\build\intermediates\pre-dexed\debug\classes_8a4ebd2ae1af9e71693a69517be89a391088b78b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\VULCAN\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.8.1\bc373fb6bc7bca3035041b924f158fd2b946ee8d\butterknife-annotations-8.8.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bc373fb6bc7bca3035041b924f158fd2b946ee8d">
+        <dex dex="F:\projects2\care\app\build\intermediates\pre-dexed\debug\butterknife-annotations-8.8.1_226171a427c75e3197ee3cd345c4b3f910cdb51a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\VULCAN\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.3.0\9e09011e9767bb76b5e27c9b8223476b93b14631\converter-gson-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9e09011e9767bb76b5e27c9b8223476b93b14631">
+        <dex dex="F:\projects2\care\app\build\intermediates\pre-dexed\debug\converter-gson-2.3.0_3007939a976545b926f4e87cca0b55b6c74e8d78.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\VULCAN\.android\build-cache\826d1add5568eac67c004e5f0ad67697dd2baa26\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6ef76bb895770207d2d490296a083d4de78bc5a9">
+        <dex dex="F:\projects2\care\app\build\intermediates\pre-dexed\debug\classes_1ebfeb8edd6105152812439ebb9bb6f0514cdab9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\VULCAN\.android\build-cache\1c3e122082e150adb6540b6a07c4d8855637a4b8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9b13c03d766e44c7dd4403cb9405cba4a53bbdd8">
+        <dex dex="F:\projects2\care\app\build\intermediates\pre-dexed\debug\classes_6a7c98ed39c9be2b65a5b644b39bd8441c2aded1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\VULCAN\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="F:\projects2\care\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_898bfed13881b36a31e332121d2cdcf7906227b2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\VULCAN\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.3.0\bcacde6a8ccedcc56c127403d26b76072fe6214d\retrofit-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bcacde6a8ccedcc56c127403d26b76072fe6214d">
+        <dex dex="F:\projects2\care\app\build\intermediates\pre-dexed\debug\retrofit-2.3.0_5fec5a74441b4b52c370b259697250993663d64e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\VULCAN\.android\build-cache\68e060bd07ed1f80770c87b4c9914d1873884fcc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a46c277098d453b4886db28568d627c283e53a04">
+        <dex dex="F:\projects2\care\app\build\intermediates\pre-dexed\debug\classes_5a168d30d6d831cc79cf02448b7569c786c5ce95.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\VULCAN\.android\build-cache\fd51289d1a4870b7f226826a53a581682a6c4ea3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="91b50fcd97834f47480a943bcc0468a37372211a">
+        <dex dex="F:\projects2\care\app\build\intermediates\pre-dexed\debug\classes_7281a45f8028d430b7e90cd0654ccffda2ef7ba4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\VULCAN\.android\build-cache\61ff85378c280ee1e560a4e56451492ca3c120c7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="203f86b303ba8cf1473a5495f94121466af023b0">
+        <dex dex="F:\projects2\care\app\build\intermediates\pre-dexed\debug\classes_01fa6adffe3ebb7a6da0c7e6e421530a96a9d31d.jar" />
+    </item>
+
+</items>

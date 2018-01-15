@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="career_status">
+        <item>退休</item>
+        <item>离职</item>
+        <item>在职</item>
+    </string-array>
+
+    <string-array name="elder_type">
+        <item>托底</item>
+        <item>扶助</item>
+        <item>普惠</item>
+        <item>其他</item>
+    </string-array>
+
+    <string-array name="education_degree">
+        <item>未上过学</item>
+        <item>小学</item>
+        <item>初中</item>
+        <item>高中</item>
+        <item>中专</item>
+        <item>大专</item>
+        <item>本科</item>
+        <item>本科以上</item>
+    </string-array>
+
+    <string-array name="village_name">
+        <item>和谐雅园</item>
+        <item>首城国际</item>
+    </string-array>
+
+    <string-array name="sex_type">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+
+    <string-array name="marriage_status">
+        <item>已婚</item>
+        <item>未婚</item>
+        <item>离异</item>
+        <item>丧偶</item>
+    </string-array>
+
+    <string-array name="home_status">
+        <item>两位老人</item>
+        <item>独居</item>
+        <item>与亲属同住</item>
+        <item>子女陪伴</item>
+        <item>保姆照料(住家)</item>
+        <item>保姆照料(不住家)</item>
+        <item>其他</item>
+    </string-array>
+
+    <string-array name="medical_treatement_pay_type">
+        <item>全公费</item>
+        <item>部分公费</item>
+        <item>城镇职工医疗保险</item>
+        <item>城镇居民医疗保险</item>
+        <item>商业医疗保险</item>
+        <item>新型农村合作医疗</item>
+        <item>贫困资助</item>
+        <item>全自费</item>
+        <item>其他</item>
+    </string-array>
+
+    <string-array name="blood_type">
+        <item>A</item>
+        <item>B</item>
+        <item>O</item>
+        <item>AB</item>
+        <item>RH阴性</item>
+        <item>RH阳性</item>
+        <item>不详</item>
+    </string-array>
+
+    <string-array name="exposure_history">
+        <item>无</item>
+        <item>化学品</item>
+        <item>毒物</item>
+        <item>射线</item>
+        <item>其他</item>
+    </string-array>
+
+    <string-array name="live_type">
+        <item>户籍</item>
+        <item>非户籍</item>
+    </string-array>
+
+    <string-array name="service_method">
+        <item>上门</item>
+        <item>驿站</item>
+    </string-array>
+
+    <string-array name="disease_list">
+        <item>高血压</item>
+        <item>糖尿病</item>
+        <item>冠心病</item>
+        <item>恶性肿瘤</item>
+        <item>脑出血、脑梗塞</item>
+        <item>慢阻肺</item>
+        <item>结核病</item>
+        <item>精神分裂症</item>
+        <item>肝炎</item>
+        <item>颈椎病、腰椎病</item>
+        <item>骨性关节炎</item>
+        <item>骨性关节炎</item>
+        <item>骨性关节炎</item>
+        <item>骨性关节炎</item>
+        <item>骨性关节炎</item>
+        <item>骨性关节炎</item>
+    </string-array>
+
+    <string-array name="create_doc_step">
+        <item>老人基本信息(1/9)</item>
+        <item>既往史(2/9)</item>
+        <item>家族史(3/9)</item>
+        <item>生活能力评估(4/9)</item>
+        <item>其他评估(5/9)</item>
+        <item>需求情况(6/9)</item>
+        <item>用药情况(7/9)</item>
+        <item>吸氧和疫苗接种史(8/9)</item>
+        <item>最后一步(9/9)</item>
+    </string-array>
+
+    <string-array name="family_disease_array">
+        <item>高血压</item>
+        <item>糖尿病</item>
+        <item>冠心病</item>
+        <item>恶性肿瘤</item>
+        <item>脑卒中（脑出血、脑梗塞）</item>
+        <item>先天畸形</item>
+        <item>结核病</item>
+        <item>精神分裂症</item>
+        <item>肝炎</item>
+        <item>颈椎病、腰椎病</item>
+    </string-array>
+
+    <string-array name="disablity_array">
+        <item>听力残</item>
+        <item>言语残</item>
+        <item>肢体残</item>
+        <item>智力残</item>
+        <item>眼</item>
+        <item>精神残</item>
+    </string-array>
+
+    <string-array name="housework_distribution">
+        <item>自己做</item>
+        <item>老伴做</item>
+        <item>与老伴一起做</item>
+        <item>子女做</item>
+        <item>小时工</item>
+    </string-array>
+
+    <string-array name="wash_clothes">
+        <item>不论大小衣物都是自己洗</item>
+        <item>小件自己洗大件靠帮助</item>
+        <item>能洗但是自己不洗</item>
+        <item>自己洗不了</item>
+        <item>洗衣机洗</item>
+    </string-array>
+
+    <string-array name="staple_food">
+        <item>面食</item>
+        <item>米</item>
+        <item>米面均衡</item>
+    </string-array>
+
+    <string-array name="non_staple_food">
+        <item>荤素均衡</item>
+        <item>荤食为主</item>
+        <item>素食为主</item>
+    </string-array>
+
+    <string-array name="food_allergy">
+        <item>无</item>
+        <item>海鲜</item>
+        <item>蘑菇</item>
+        <item>豆类</item>
+    </string-array>
+
+    <string-array name="have_or_not">
+        <item>无</item>
+        <item>有</item>
+    </string-array>
+
+    <string-array name="yes_or_no">
+        <item>是</item>
+        <item>否</item>
+    </string-array>
+
+    <string-array name="sleep_quality">
+        <item>很好</item>
+        <item>一般</item>
+        <item>不好(失眠)</item>
+    </string-array>
+
+    <string-array name="wash_frequency">
+        <item>独立完成</item>
+        <item>需要辅助</item>
+    </string-array>
+
+    <string-array name="exec_type">
+        <item>走路</item>
+        <item>跑步</item>
+        <item>打太极</item>
+        <item>广场舞</item>
+    </string-array>
+
+    <string-array name="aids_type">
+        <item>拐杖</item>
+        <item>助行器</item>
+        <item>轮椅</item>
+    </string-array>
+
+    <string-array name="family_care">
+        <item>自己</item>
+        <item>老伴</item>
+        <item>儿女、孙辈或者其他亲属</item>
+        <item>保姆、小时工</item>
+        <item>邻里帮助</item>
+    </string-array>
+
+    <string-array name="live_care_type">
+        <item>助餐</item>
+        <item>助洁</item>
+        <item>助浴</item>
+        <item>修脚、理发</item>
+        <item>专业养老护理员</item>
+    </string-array>
+
+    <string-array name="medical_server_type">
+        <item>医生上门</item>
+        <item>护士上门</item>
+        <item>医生上门</item>
+        <item>护士上门</item>
+        <item>康复师上门</item>
+        <item>养生保健讲座</item>
+        <item>心理慰藉</item>
+        <item>健康指标检测</item>
+        <item>陪同就医</item>
+        <item>代取送药</item>
+        <item>放松按摩"</item>
+        <item>健康管理</item>
+        <item>居家照护培训</item>
+        <item>辅助器具配备</item>
+        <item>家属喘息服务（外出接送服务、入户生活照料、短期托管）</item>
+        <item>用药指导</item>
+    </string-array>
+
+    <string-array name="security_type">
+        <item>适老化改造</item>
+        <item>适老化家具</item>
+    </string-array>
+</resources>

@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/create_doc_bg_color">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/DocTitleTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1.家务如何分配:"/>
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_weight="1"
+                android:background="#fff"/>
+        </TableRow>
+
+        <TableRow>
+
+            <com.ihidea.multilinechooselib.MultiLineChooseLayout
+                android:id="@+id/ml_housework_distribution"
+                style="@style/MultiChooseStyleLiveAblity"/>
+        </TableRow>
+
+        <TableRow android:background="#fff">
+
+            <EditText
+                android:id="@+id/et_other_distribution"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:hint="请输入其他家务分配方式,如果没有则不填"
+                android:lines="1"/>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/DocTitleTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2.衣物清洗:"/>
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_weight="1"
+                android:background="#fff"/>
+        </TableRow>
+
+        <TableRow>
+
+            <com.ihidea.multilinechooselib.MultiLineChooseLayout
+                android:id="@+id/ml_wash_clothes"
+                style="@style/MultiChooseStyleLiveAblity"/>
+        </TableRow>
+
+        <TableRow>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_weight="1"
+                android:background="#fff"/>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/DocTitleTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3.饮食习惯:"/>
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/DocTitleTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="主食偏好:"/>
+
+                <com.ihidea.multilinechooselib.MultiLineChooseLayout
+                    android:id="@+id/ml_staple_food"
+                    style="@style/MultiChooseStyleLiveAblity"/>
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow android:background="#fff">
+
+            <EditText
+                android:id="@+id/et_other_staple_food"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:hint="请输入其他主食偏好,如果没有则不填"
+                android:lines="1"/>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/DocTitleTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="副食偏好:"/>
+
+                <com.ihidea.multilinechooselib.MultiLineChooseLayout
+                    android:id="@+id/ml_non_staple_food"
+                    style="@style/MultiChooseStyleLiveAblity"/>
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow android:background="#fff">
+
+            <EditText
+                android:id="@+id/et_other_non_staple_food"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:hint="请输入其他副食偏好,如果没有则不填"
+                android:lines="1"/>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/DocTitleTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="食物过敏:"/>
+
+                <com.ihidea.multilinechooselib.MultiLineChooseLayout
+                    android:id="@+id/ml_food_allergy"
+                    style="@style/MultiChooseStyleLiveAblity"/>
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow android:background="#fff">
+
+            <EditText
+                android:id="@+id/et_other_food_allergy"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:hint="请输入其他副食偏好,如果没有则不填"
+                android:lines="1"/>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/DocTitleTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4.体育锻炼:"/>
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/DocTitleTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="是否有锻炼身体的习惯:"/>
+
+                <include
+                    android:id="@+id/rg_physical_exercise"
+                    layout="@layout/layout_radio_group_has_or_not"/>
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow>
+
+            <include
+                android:id="@+id/ll_exec_container"
+                layout="@layout/layout_has_exercise"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:visibility="gone"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/DocTitleTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5.排便是否正常:"/>
+
+                <com.ihidea.multilinechooselib.MultiLineChooseLayout
+                    android:id="@+id/ml_defecation"
+                    style="@style/MultiChooseStyleLiveAblitySingle"/>
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow android:background="#fff">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/et_defecation_frequency"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:hint="频次如何"
+                    android:lines="1"/>
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/DocTitleTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6.是否起夜:"/>
+
+                <com.ihidea.multilinechooselib.MultiLineChooseLayout
+                    android:id="@+id/ml_qiye"
+                    style="@style/MultiChooseStyleLiveAblitySingle"/>
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow android:background="#fff">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/et_qiye_frequency"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:hint="频次如何"
+                    android:lines="1"/>
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/DocTitleTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7.睡眠质量如何:"/>
+
+                <com.ihidea.multilinechooselib.MultiLineChooseLayout
+                    android:id="@+id/ml_sleep_quality"
+                    style="@style/MultiChooseStyleLiveAblitySingle"/>
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/DocTitleTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8.洗浴频次如何:"/>
+
+                <com.ihidea.multilinechooselib.MultiLineChooseLayout
+                    android:id="@+id/ml_wash"
+                    style="@style/MultiChooseStyleLiveAblitySingle"/>
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow android:background="#fff">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/et_wash_frequency"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:hint="洗浴频次"
+                    android:lines="1"/>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/DocTitleTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9.其他情况:"/>
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow android:background="#fff">
+
+            <EditText
+                android:id="@+id/et_other_situation"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:hint="请输入其他情况,如果没有则不填"
+                android:lines="1"/>
+        </TableRow>
+    </TableLayout>
+</android.support.v4.widget.NestedScrollView>

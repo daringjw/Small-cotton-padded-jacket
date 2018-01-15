@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jinkun.care.ui.activity.HomeActivity">
+
+    <TextView
+        android:id="@+id/tv_current_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_create_doc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="建档评估"/>
+
+    <Button
+        android:id="@+id/btn_order_handle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="工单处理"/>
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注销"/>
+
+</LinearLayout>

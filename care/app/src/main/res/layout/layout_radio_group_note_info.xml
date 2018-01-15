@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:showIn="@layout/fragment_step_7">
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="药片(丸)剂量单位请用mg"
+        android:textColor="@color/red_btn_bg_pressed_color"
+        android:textSize="@dimen/doc_radio_text_size"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="药水剂量单位请用cc"
+        android:textColor="@color/red_btn_bg_pressed_color"
+        android:textSize="@dimen/doc_radio_text_size"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="塞剂剂量单位请用#"
+        android:textColor="@color/red_btn_bg_pressed_color"
+        android:textSize="@dimen/doc_radio_text_size"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="胰岛素剂量请用u"
+        android:textColor="@color/red_btn_bg_pressed_color"
+        android:textSize="@dimen/doc_radio_text_size"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="药膏或擦剂请记录次数即可"
+        android:textColor="@color/red_btn_bg_pressed_color"
+        android:textSize="@dimen/doc_radio_text_size"/>
+</RadioGroup>
